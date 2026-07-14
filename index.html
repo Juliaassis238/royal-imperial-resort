@@ -1,19 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
-<head>
-  <!--
+<head><link as_="image" href="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&amp;q=85" rel="preload"/>
+<!--
     ============================================================
     ROYAL IMPERIAL RESORT — Luxury 5-Star Hotel
     Projeto desenvolvido por Júlia Ágata de Assis
     ============================================================
   -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Royal Imperial Resort — Five-Star Luxury</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Lato:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet" />
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Royal Imperial Resort — Five-Star Luxury</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&amp;family=Lato:ital,wght@0,200;0,300;0,400;1,300&amp;display=swap" rel="stylesheet"/>
+<style>
     :root {
       --black: #080808;
       --dark: #111111;
@@ -326,178 +326,168 @@
   </style>
 </head>
 <body>
-
-  <nav class="navbar" id="navbar">
-    <a href="#" class="logo">
+<nav class="navbar" id="navbar">
+<a class="logo" href="#">
       Royal Imperial Resort
       <span class="logo-sub">Five-Star Luxury Collection</span>
-    </a>
-    <ul class="nav-links">
-      <li><a href="#suites">Suítes</a></li>
-      <li><a href="#experiencias">Experiências</a></li>
-      <li><a href="#galeria">Resort</a></li>
-      <li><a href="#vip">VIP Club</a></li>
-      <li><a href="#reserva" class="nav-reserve">Reservar</a></li>
-    </ul>
-    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
-  </nav>
-
-  <div class="mobile-menu" id="mobileMenu">
-    <button class="menu-close-btn" id="menuClose">&#x2715;</button>
-    <a href="#suites" class="menu-link">Suítes</a>
-    <a href="#experiencias" class="menu-link">Experiências</a>
-    <a href="#galeria" class="menu-link">Resort</a>
-    <a href="#vip" class="menu-link">VIP</a>
-    <a href="#reserva" class="menu-link">Reservar</a>
-  </div>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg" id="heroBg"></div>
-    <div class="hero-overlay"></div>
-    <div class="hero-gold-line"></div>
-    <div class="hero-content">
-      <div class="hero-left">
-        <p class="hero-tag">Royal Imperial Resort — Maldives & São Paulo</p>
-        <h1 class="hero-title">
-          Luxo sem<br><em>compromisso.</em>
-        </h1>
-        <div class="hero-sep"></div>
-        <p class="hero-sub">Um refúgio de elegância incomparável onde cada detalhe foi concebido para transcender as expectativas do hóspede mais exigente.</p>
-      </div>
-      <div class="hero-right">
-        <div class="hero-award"><strong>Forbes Travel Guide</strong><span>Five-Star Award 2024</span></div>
-        <div class="hero-award"><strong>Condé Nast Traveler</strong><span>Best Hotel Brazil 2023</span></div>
-        <div class="hero-award"><strong>Leading Hotels</strong><span>of the World Member</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- RESERVA BAR -->
-  <div class="reserve-bar" id="reserva">
-    <div class="reserve-field"><label>Check-In</label><input type="date" /></div>
-    <div class="reserve-divider"></div>
-    <div class="reserve-field"><label>Check-Out</label><input type="date" /></div>
-    <div class="reserve-divider"></div>
-    <div class="reserve-field">
-      <label>Tipo de Suíte</label>
-      <select>
-        <option>Selecione</option>
-        <option>Suíte Deluxe</option>
-        <option>Suíte Ocean View</option>
-        <option>Presidential Suite</option>
-        <option>Royal Villa</option>
-      </select>
-    </div>
-    <div class="reserve-divider"></div>
-    <div class="reserve-field"><label>Hóspedes</label><select><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
-    <button class="reserve-btn" type="button">Verificar Disponibilidade</button>
-  </div>
-
-  <!-- SUÍTES -->
-  <section class="section-suites" id="suites">
-    <div class="suites-header">
-      <span class="gold-label">Acomodações</span>
-      <h2 class="section-title reveal">Suítes de <em>Exceção</em></h2>
-    </div>
-    <div class="suites-grid">
-      <div class="suite-card reveal">
-        <img loading="lazy" class="suite-img" src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=85" alt="Suite Deluxe" />
-        <div class="suite-info">
-          <div class="suite-cat">Deluxe</div>
-          <div class="suite-name">Suíte Jardim</div>
-          <div class="suite-rate">A partir de <strong>R$ 2.800/noite</strong></div>
-        </div>
-        <div class="suite-hover-content">
-          <a href="#reserva" class="suite-cta">Reservar</a>
-        </div>
-      </div>
-      <div class="suite-card reveal reveal-delay-1">
-        <img loading="lazy" class="suite-img" src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&q=85" alt="Suite Ocean" />
-        <div class="suite-info">
-          <div class="suite-cat">Ocean View</div>
-          <div class="suite-name">Suíte Vista Mar</div>
-          <div class="suite-rate">A partir de <strong>R$ 5.200/noite</strong></div>
-        </div>
-        <div class="suite-hover-content">
-          <a href="#reserva" class="suite-cta">Reservar</a>
-        </div>
-      </div>
-      <div class="suite-card reveal reveal-delay-2">
-        <img loading="lazy" class="suite-img" src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&q=85" alt="Presidential Suite" />
-        <div class="suite-info">
-          <div class="suite-cat">Presidential</div>
-          <div class="suite-name">Suíte Imperial</div>
-          <div class="suite-rate">A partir de <strong>R$ 12.800/noite</strong></div>
-        </div>
-        <div class="suite-hover-content">
-          <a href="#reserva" class="suite-cta">Reservar</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIÊNCIAS -->
-  <section class="section-experiences" id="experiencias">
-    <div class="exp-header">
-      <span class="gold-label">Além do Quarto</span>
-      <h2 class="section-title reveal">Experiências <em>Únicas</em></h2>
-    </div>
-    <div class="exp-grid">
-      <div class="exp-card reveal"><span class="exp-num">01</span><h3>Restaurante Imperiale</h3><p>Alta gastronomia com chef estrelado Michelin. Menu degustação com 11 etapas e harmonização exclusiva.</p></div>
-      <div class="exp-card reveal reveal-delay-1"><span class="exp-num">02</span><h3>Royal Spa & Wellness</h3><p>Centro de bem-estar com piscinas termais, tratamentos ayurvédicos e rituais de corpo de alta performance.</p></div>
-      <div class="exp-card reveal reveal-delay-2"><span class="exp-num">03</span><h3>Piscina Infinita</h3><p>Vista panorâmica para o oceano com serviço de mordomo, bar à beira da piscina e cabanas privativas.</p></div>
-      <div class="exp-card reveal reveal-delay-3"><span class="exp-num">04</span><h3>Concierge Privado</h3><p>Serviço personalizado 24h para transfers, reservas exclusivas, experiências sob medida e serviços VIP.</p></div>
-    </div>
-  </section>
-
-  <!-- GALERIA -->
-  <section class="section-gallery" id="galeria">
-    <div class="gal-item reveal"><img loading="lazy" class="gal-img" src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=85" alt="Resort"/><div class="gal-overlay"><span class="gal-label">Vista do Resort</span></div></div>
-    <div class="gal-item reveal reveal-delay-1"><img loading="lazy" class="gal-img" src="pool_luxury.webp" alt="Pool"/><div class="gal-overlay"><span class="gal-label">Piscina Infinita</span></div></div>
-    <div class="gal-item reveal reveal-delay-2"><img loading="lazy" class="gal-img" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=85" alt="Restaurant"/><div class="gal-overlay"><span class="gal-label">Imperiale</span></div></div>
-    <div class="gal-item reveal reveal-delay-1"><img loading="lazy" class="gal-img" src="https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=600&q=85" alt="Spa"/><div class="gal-overlay"><span class="gal-label">Royal Spa</span></div></div>
-    <div class="gal-item reveal reveal-delay-2"><img loading="lazy" class="gal-img" src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&q=85" alt="Suite"/><div class="gal-overlay"><span class="gal-label">Suíte Imperial</span></div></div>
-  </section>
-
-  <!-- VIP -->
-  <section class="section-vip" id="vip">
-    <div class="vip-inner reveal">
-      <div class="vip-divider">
-        <div class="vip-divider-line"></div>
-        <span>R</span>
-        <div class="vip-divider-line right"></div>
-      </div>
-      <h2 class="vip-title">Royal <em>Imperial</em> VIP Club</h2>
-      <p class="vip-body">Acesso exclusivo a um mundo de privilégios ilimitados. Benefícios únicos pensados para os nossos hóspedes mais especiais.</p>
-      <div class="vip-perks">
-        <div class="vip-perk"><span>Benefício</span><p>Check-in às 10h, check-out às 16h</p></div>
-        <div class="vip-perk"><span>Benefício</span><p>Transfer privativo incluído</p></div>
-        <div class="vip-perk"><span>Benefício</span><p>Café da manhã para dois</p></div>
-        <div class="vip-perk"><span>Benefício</span><p>Mordomo disponível 24h</p></div>
-      </div>
-      <button class="btn-gold">Solicitar Adesão VIP</button>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="#" class="logo">Royal Imperial Resort<span class="logo-sub">Five-Star Luxury Collection</span></a>
-        <p>Um santuário de elegância e hospitalidade incomparáveis, dedicado aos que buscam o extraordinário.</p>
-      </div>
-      <div class="footer-col"><h4>Resort</h4><ul><li><a href="#">Suítes & Villas</a></li><li><a href="#">Restaurantes</a></li><li><a href="#">Spa</a></li><li><a href="#">Eventos</a></li></ul></div>
-      <div class="footer-col"><h4>Reservas</h4><ul><li><a href="#">Disponibilidade</a></li><li><a href="#">Grupos & MICE</a></li><li><a href="#">Lua de Mel</a></li><li><a href="#">Vouchers</a></li></ul></div>
-      <div class="footer-col"><h4>Contato</h4><ul><li><a href="#">+55 (11) 3000-5000</a></li><li><a href="#">reservas@royalimperial.com</a></li><li><a href="#">Av. Atlântica, 3500 — RJ</a></li><li><a href="#">Concierge 24h</a></li></ul></div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2024 Royal Imperial Resort. All rights reserved.</p>
-      <p>Projeto desenvolvido por <span>Júlia Ágata de Assis</span></p>
-    </div>
-  </footer>
-
-  <script>
+</a>
+<ul class="nav-links">
+<li><a href="#suites">Suítes</a></li>
+<li><a href="#experiencias">Experiências</a></li>
+<li><a href="#galeria">Resort</a></li>
+<li><a href="#vip">VIP Club</a></li>
+<li><a class="nav-reserve" href="#reserva">Reservar</a></li>
+</ul>
+<button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+<button class="menu-close-btn" id="menuClose">✕</button>
+<a class="menu-link" href="#suites">Suítes</a>
+<a class="menu-link" href="#experiencias">Experiências</a>
+<a class="menu-link" href="#galeria">Resort</a>
+<a class="menu-link" href="#vip">VIP</a>
+<a class="menu-link" href="#reserva">Reservar</a>
+</div>
+<!-- HERO -->
+<section class="hero">
+<div class="hero-bg" id="heroBg"></div>
+<div class="hero-overlay"></div>
+<div class="hero-gold-line"></div>
+<div class="hero-content">
+<div class="hero-left">
+<p class="hero-tag">Royal Imperial Resort — Maldives &amp; São Paulo</p>
+<h1 class="hero-title">
+          Luxo sem<br/><em>compromisso.</em>
+</h1>
+<div class="hero-sep"></div>
+<p class="hero-sub">Um refúgio de elegância incomparável onde cada detalhe foi concebido para transcender as expectativas do hóspede mais exigente.</p>
+</div>
+<div class="hero-right">
+<div class="hero-award"><strong>Forbes Travel Guide</strong><span>Five-Star Award 2024</span></div>
+<div class="hero-award"><strong>Condé Nast Traveler</strong><span>Best Hotel Brazil 2023</span></div>
+<div class="hero-award"><strong>Leading Hotels</strong><span>of the World Member</span></div>
+</div>
+</div>
+</section>
+<!-- RESERVA BAR -->
+<div class="reserve-bar" id="reserva">
+<div class="reserve-field"><label>Check-In</label><input type="date"/></div>
+<div class="reserve-divider"></div>
+<div class="reserve-field"><label>Check-Out</label><input type="date"/></div>
+<div class="reserve-divider"></div>
+<div class="reserve-field">
+<label>Tipo de Suíte</label>
+<select>
+<option>Selecione</option>
+<option>Suíte Deluxe</option>
+<option>Suíte Ocean View</option>
+<option>Presidential Suite</option>
+<option>Royal Villa</option>
+</select>
+</div>
+<div class="reserve-divider"></div>
+<div class="reserve-field"><label>Hóspedes</label><select><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
+<button class="reserve-btn" type="button">Verificar Disponibilidade</button>
+</div>
+<!-- SUÍTES -->
+<section class="section-suites" id="suites">
+<div class="suites-header">
+<span class="gold-label">Acomodações</span>
+<h2 class="section-title reveal">Suítes de <em>Exceção</em></h2>
+</div>
+<div class="suites-grid">
+<div class="suite-card reveal">
+<img alt="Suite Deluxe" class="suite-img" fetchpriority="high" loading="eager" src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&amp;q=85"/>
+<div class="suite-info">
+<div class="suite-cat">Deluxe</div>
+<div class="suite-name">Suíte Jardim</div>
+<div class="suite-rate">A partir de <strong>R$ 2.800/noite</strong></div>
+</div>
+<div class="suite-hover-content">
+<a class="suite-cta" href="#reserva">Reservar</a>
+</div>
+</div>
+<div class="suite-card reveal reveal-delay-1">
+<img alt="Suite Ocean" class="suite-img" decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&amp;q=85"/>
+<div class="suite-info">
+<div class="suite-cat">Ocean View</div>
+<div class="suite-name">Suíte Vista Mar</div>
+<div class="suite-rate">A partir de <strong>R$ 5.200/noite</strong></div>
+</div>
+<div class="suite-hover-content">
+<a class="suite-cta" href="#reserva">Reservar</a>
+</div>
+</div>
+<div class="suite-card reveal reveal-delay-2">
+<img alt="Presidential Suite" class="suite-img" decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&amp;q=85"/>
+<div class="suite-info">
+<div class="suite-cat">Presidential</div>
+<div class="suite-name">Suíte Imperial</div>
+<div class="suite-rate">A partir de <strong>R$ 12.800/noite</strong></div>
+</div>
+<div class="suite-hover-content">
+<a class="suite-cta" href="#reserva">Reservar</a>
+</div>
+</div>
+</div>
+</section>
+<!-- EXPERIÊNCIAS -->
+<section class="section-experiences" id="experiencias">
+<div class="exp-header">
+<span class="gold-label">Além do Quarto</span>
+<h2 class="section-title reveal">Experiências <em>Únicas</em></h2>
+</div>
+<div class="exp-grid">
+<div class="exp-card reveal"><span class="exp-num">01</span><h3>Restaurante Imperiale</h3><p>Alta gastronomia com chef estrelado Michelin. Menu degustação com 11 etapas e harmonização exclusiva.</p></div>
+<div class="exp-card reveal reveal-delay-1"><span class="exp-num">02</span><h3>Royal Spa &amp; Wellness</h3><p>Centro de bem-estar com piscinas termais, tratamentos ayurvédicos e rituais de corpo de alta performance.</p></div>
+<div class="exp-card reveal reveal-delay-2"><span class="exp-num">03</span><h3>Piscina Infinita</h3><p>Vista panorâmica para o oceano com serviço de mordomo, bar à beira da piscina e cabanas privativas.</p></div>
+<div class="exp-card reveal reveal-delay-3"><span class="exp-num">04</span><h3>Concierge Privado</h3><p>Serviço personalizado 24h para transfers, reservas exclusivas, experiências sob medida e serviços VIP.</p></div>
+</div>
+</section>
+<!-- GALERIA -->
+<section class="section-gallery" id="galeria">
+<div class="gal-item reveal"><img alt="Resort" class="gal-img" decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&amp;q=85"/><div class="gal-overlay"><span class="gal-label">Vista do Resort</span></div></div>
+<div class="gal-item reveal reveal-delay-1"><img alt="Pool" class="gal-img" decoding="async" loading="lazy" src="pool_luxury.webp"/><div class="gal-overlay"><span class="gal-label">Piscina Infinita</span></div></div>
+<div class="gal-item reveal reveal-delay-2"><img alt="Restaurant" class="gal-img" decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&amp;q=85"/><div class="gal-overlay"><span class="gal-label">Imperiale</span></div></div>
+<div class="gal-item reveal reveal-delay-1"><img alt="Spa" class="gal-img" decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1600011689032-8b628b8a8747?w=600&amp;q=85"/><div class="gal-overlay"><span class="gal-label">Royal Spa</span></div></div>
+<div class="gal-item reveal reveal-delay-2"><img alt="Suite" class="gal-img" decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&amp;q=85"/><div class="gal-overlay"><span class="gal-label">Suíte Imperial</span></div></div>
+</section>
+<!-- VIP -->
+<section class="section-vip" id="vip">
+<div class="vip-inner reveal">
+<div class="vip-divider">
+<div class="vip-divider-line"></div>
+<span>R</span>
+<div class="vip-divider-line right"></div>
+</div>
+<h2 class="vip-title">Royal <em>Imperial</em> VIP Club</h2>
+<p class="vip-body">Acesso exclusivo a um mundo de privilégios ilimitados. Benefícios únicos pensados para os nossos hóspedes mais especiais.</p>
+<div class="vip-perks">
+<div class="vip-perk"><span>Benefício</span><p>Check-in às 10h, check-out às 16h</p></div>
+<div class="vip-perk"><span>Benefício</span><p>Transfer privativo incluído</p></div>
+<div class="vip-perk"><span>Benefício</span><p>Café da manhã para dois</p></div>
+<div class="vip-perk"><span>Benefício</span><p>Mordomo disponível 24h</p></div>
+</div>
+<button class="btn-gold">Solicitar Adesão VIP</button>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="logo" href="#">Royal Imperial Resort<span class="logo-sub">Five-Star Luxury Collection</span></a>
+<p>Um santuário de elegância e hospitalidade incomparáveis, dedicado aos que buscam o extraordinário.</p>
+</div>
+<div class="footer-col"><h4>Resort</h4><ul><li><a href="#">Suítes &amp; Villas</a></li><li><a href="#">Restaurantes</a></li><li><a href="#">Spa</a></li><li><a href="#">Eventos</a></li></ul></div>
+<div class="footer-col"><h4>Reservas</h4><ul><li><a href="#">Disponibilidade</a></li><li><a href="#">Grupos &amp; MICE</a></li><li><a href="#">Lua de Mel</a></li><li><a href="#">Vouchers</a></li></ul></div>
+<div class="footer-col"><h4>Contato</h4><ul><li><a href="#">+55 (11) 3000-5000</a></li><li><a href="#">reservas@royalimperial.com</a></li><li><a href="#">Av. Atlântica, 3500 — RJ</a></li><li><a href="#">Concierge 24h</a></li></ul></div>
+</div>
+<div class="footer-bottom">
+<p>© 2024 Royal Imperial Resort. All rights reserved.</p>
+<p>Projeto desenvolvido por <span>Júlia Ágata de Assis</span></p>
+</div>
+</footer>
+<script>
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 60));
     document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
